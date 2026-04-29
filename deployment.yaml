@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: time-tracker-container
-        image: time-tracker-app:latest
+        image: time-tracker-app:$BUILD_NUMBER
         imagePullPolicy: Never
         ports:
         - containerPort: 5173
